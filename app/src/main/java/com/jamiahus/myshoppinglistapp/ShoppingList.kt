@@ -103,7 +103,7 @@ fun ShoppingListApp(){
                                             name = itemName,
                                             quantity = itemQuantity.toInt()
                                         )
-
+                                        
                                         sItems = sItems + newItem
                                         showDialog = false
                                         itemName = ""
